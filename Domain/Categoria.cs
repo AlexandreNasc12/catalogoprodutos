@@ -6,6 +6,7 @@ public class Categoria
 
     public string Descricao { get; private set; }
 
+
     //EF
     private List<Produto> _Produtos;
     public IReadOnlyCollection<Produto> Produtos => _Produtos;
